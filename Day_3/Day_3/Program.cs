@@ -13,12 +13,20 @@ namespace Day_3
 
             Funkcija(5,6);
             Funkcija(12,8);
+            int mainigais = Funkcija2(10,12);
+            Console.WriteLine(mainigais);
             Console.ReadLine();
         }
         static void Funkcija(int skaitlis1, int skaitlis2)
         {
-            int c = skaitlis1 + skaitlis2;
-            Console.WriteLine(c);
+            int x = skaitlis1 + skaitlis2;
+            Console.WriteLine(x);
+        }
+        static int Funkcija2(int a, int b)
+        {
+            int c;
+            c = a + b;
+            return c;
         }
     }
 }
