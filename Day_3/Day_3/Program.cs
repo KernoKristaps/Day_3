@@ -16,6 +16,12 @@ namespace Day_3
             int mainigais = Funkcija2(10,12);
             Console.WriteLine(mainigais);
             Console.ReadLine();
+            
+            string ir = Funkcija3("divi","plus","divi");
+            Console.WriteLine(ir);
+
+
+            Console.ReadLine();
         }
         static void Funkcija(int skaitlis1, int skaitlis2)
         {
@@ -27,6 +33,13 @@ namespace Day_3
             int c;
             c = a + b;
             return c;
+        }
+        static string Funkcija3(string a1,string b2, string c3)
+        {
+            string ir;
+            ir = a1 + b2 + c3;
+
+            return ir;
         }
     }
 }
