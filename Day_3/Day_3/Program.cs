@@ -10,6 +10,15 @@ namespace Day_3
     {
         static void Main(string[] args)
         {
+
+            Funkcija(5,6);
+            Funkcija(12,8);
+            Console.ReadLine();
+        }
+        static void Funkcija(int skaitlis1, int skaitlis2)
+        {
+            int c = skaitlis1 + skaitlis2;
+            Console.WriteLine(c);
         }
     }
 }
