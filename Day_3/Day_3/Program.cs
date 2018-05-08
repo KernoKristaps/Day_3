@@ -17,7 +17,7 @@ namespace Day_3
             Console.WriteLine(mainigais);
             Console.ReadLine();
             
-            string ir = Funkcija3("divi","plus","divi");
+            string ir = Funkcija3("divi ","plus ","divi ");
             Console.WriteLine(ir);
 
 
