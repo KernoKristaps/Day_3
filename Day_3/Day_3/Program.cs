@@ -16,7 +16,6 @@ namespace Day_3
             int mainigais = Funkcija2(10,12);
             Console.WriteLine(mainigais);
             
-            
             string ir = Funkcija3("divi ","plus ","divi ");
             Console.WriteLine(ir);
 
